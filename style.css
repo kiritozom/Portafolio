@@ -15,6 +15,7 @@ header {
     justify-content: center;
     gap: 20px;
     padding: 40px 20px;
+
 }
 .perfil{
     background: white;
@@ -111,4 +112,67 @@ section {
 article img{
     width: 100px;
     height: 100px;
+}
+.contenedor {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  justify-content: center;
+}
+.imagen-circular{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.derecha{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.parrafo p{
+  margin-bottom: 5px;
+}
+.botones{
+  display: flex;
+  gap: 10px;
+}
+.botones buttom{
+  padding: 8px 16px;
+  font-size: 16px;
+}
+.imagenes-inferiores{
+  display: flex;
+  gap: 10px;
+}
+.imagenes-inferiores img{
+  width: 100px;
+  height: auto;
+}
+nav{
+  display: auto;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 40px;
+
+}
+.navbar ul{
+  list-style-type: none;
+  background-color: hsl(0, 0, 25%);
+  padding: 0px;
+  margin: 0px;
+}
+.navbar a{
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+}
+.navbar a:hover{
+  background-color: hsl(0, 0, 10%);
+}
+.navbar li{
+  display: inline-block;
+  list-style-type: none;
+  display:  10px 20px;
 }

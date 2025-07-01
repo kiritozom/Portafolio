@@ -5,16 +5,42 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>portafolio</title>
         <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
     </head>
     <body>
         <header>
             <h1>Mi portafolio</h1>
-            <nav>
-                <a href="#proyectos">proyectos</a>
-                <a href="#contacto">contacto</a>
-                <a href="pagina1.html">pagina</a>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#perfil">Perfil</a></li>
+                    <li><a href="#experience">Conocimientos</a></li>
+                    <li><a href="#proyectos">Proyectos</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
             </nav>
         </header>
+        <section>
+            <div class="contenedor">
+               <div class="izquierda" id="perfil">
+                 <img src="new png.png" alt="Imagen circular" class="imagen-circular">
+                </div>
+                <div class="derecha">
+                    <div class="parrafos">
+                        <p>Hola, soy Benjamin Nicolas Treuque Donoso.</p>
+                        <p>Este es el segundo párrafo.</p>
+                        <p>Este es el tercer párrafo.</p>
+                    </div>
+                    <div class="botones">
+                        <button>Botón 1</button>
+                        <button>Botón 2</button>
+                    </div>
+                    <div class="imagenes-inferiores">
+                        <img src="" alt="Imagen 1">
+                        <img src="" alt="Imagen 2">
+                    </div>
+                </div>
+            </div>
+        </section>
     <section id="experience">
     <h1 class="title">Conocimientos</h1>
     <div class="experience-details-container">
@@ -36,19 +62,21 @@
     </section >
         <main>
             <h2 class="title">Mis proyectos</h2>
-            <section id="proyectos" class="container-carjeta">
-                <div class="perfil">
-                    <img src="honkai_impact3_portada.jpg" alt="honkai impact 3rd">
+                <section id="proyectos" class="container-carjeta">
+                    <div class="perfil">
+                    <img src="asset/honkai_impact3_portada.jpg" alt="honkai impact 3rd">
                     <h3>Honkai Impact 3rd</h3>
                     <p>Juego de anime</p>
-                    <a href="pagina1.html"><button id="honkai">Juego </button></a>
-                </div>               
-            </section>
+                    <a><button id="honkai" onclick="OtraPagina();">Juego </button></a>
+                    </div>     
+                 </section>
+        </main>
+        <footer>
             <section id="contacto">
                 <h2>Contactame</h2>
                 <p>Btreuque@pregrado.ubo.cl</p>
                 <p>+56 9 5429 2466</p>
             </section>
-        </main>
+        </footer>
     </body>
 </html>
