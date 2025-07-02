@@ -7,7 +7,7 @@ function VolverPagina()
 {
     window.location.href="index.html"
 }
-funtion JuegoP1Web()
+function JuegoP1Web()
 {
     window.location.href="https://kiritozom.github.io/Btreuque_WebGame/"    
 }
