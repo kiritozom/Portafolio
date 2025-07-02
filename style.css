@@ -121,8 +121,8 @@ article img{
   justify-content: center;
 }
 .imagen-circular{
-  width: 150px;
-  height: 150px;
+  width: 250px;
+  height: 250px;
   border-radius: 50%;
   object-fit: cover;
 }
@@ -152,7 +152,7 @@ article img{
 }
 .botones button:hover{
     transform: translateY(-5px);
-    box-shadow: 0 6px 18px rgb(88, 220, 76);
+    box-shadow: 0 6px 18px rgb(220, 150, 76);
     backgroung: gray;    
 }
 .imagenes-inferiores{
