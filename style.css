@@ -56,11 +56,12 @@ body {
 }
 section {
   padding-top: 4vh;
-  height: 96vh;
   margin: 0 10rem;
   box-sizing: border-box;
-  min-height: fit-content;
-
+  scroll-margin-top: 80px;
+}
+.full-screen-section {
+    min-height: 100vh;
 }
 
 .section-container {
@@ -175,4 +176,7 @@ nav{
   display: inline-block;
   list-style-type: none;
   display:  10px 20px;
+}
+html {
+  scroll-behavior: smooth;
 }
