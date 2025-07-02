@@ -51,22 +51,6 @@ header {
 .perfil button:hover{
     background: blue;
 }
-.BT button{
-    margin-top: 10px;
-    background: gray;
-    color: white;
-    border: none;
-    box-shadow: 0 4px 12px black;
-    border-radius: 15px;
-    padding: 10px 20px;
-    cursor: pointer;
-    transition: background 0.3s ease;
-}
-.BT button:hover{
-    transform: translateY(-5px);
-    box-shadow: 0 6px 18px rgb(88, 220, 76);
-    backgroung: gray;    
-}
 body {
    margin: 0px; 
 }
@@ -155,8 +139,21 @@ article img{
   gap: 10px;
 }
 .botones buttom{
-  padding: 8px 16px;
-  font-size: 16px;
+    padding: 8px 16px;
+    font-size: 16px;
+    margin-top: 10px;
+    background: gray;
+    color: white;
+    border: none;
+    box-shadow: 0 4px 12px black;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+.botones button:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 6px 18px rgb(88, 220, 76);
+    backgroung: gray;    
 }
 .imagenes-inferiores{
   display: flex;
