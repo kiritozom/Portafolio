@@ -62,8 +62,7 @@ header {
     cursor: pointer;
     transition: background 0.3s ease;
 }
-.BT button:hover
-{
+.BT button:hover{
     transform: translateY(-5px);
     box-shadow: 0 6px 18px rgb(88, 220, 76);
     backgroung: gray;    
