@@ -2,11 +2,11 @@ header {
     background: rgb(192, 186, 186);
     color: white;
     text-decoration: none;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
     position: sticky;
     top: 0;
-    z-index: 50;
+    z-index: 100;
     box-shadow: 0 4px 6px rgba(48, 112, 240, 0.788);
 }
 .container-carjeta {
