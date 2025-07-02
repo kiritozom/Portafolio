@@ -6,7 +6,7 @@ header {
     text-align: center;
     position: sticky;
     top: 0;
-    z-index: 100;
+    z-index: 50;
     box-shadow: 0 4px 6px rgba(48, 112, 240, 0.788);
 }
 .container-carjeta {
