@@ -1,6 +1,10 @@
-function OtraPagina()
+function pagina1()
 {
     window.location.href="pagina1.html"
+}
+function pagina2()
+{
+    window.location.href="pagina2.html"
 }
 
 function VolverPagina()
