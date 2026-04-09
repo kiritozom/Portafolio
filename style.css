@@ -99,9 +99,9 @@ section {
 }
 
 .title {
-  font-size: 3rem;
+  font-size: 1rem;
   text-align: center;
-  flex: auto;
+  
 }
 article img{
     width: 100px;
