@@ -11,10 +11,10 @@ header {
 }
 .perfil{
     background: white;
-    border-radius: 15px;
+    border-radius: 5px;
     box-shadow: 0 4px 12px black;
     padding: 20px;
-    text-align: center;
+    text-align: auto;
     width: auto;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
     height: auto;
@@ -23,12 +23,12 @@ header {
     width: auto;
     height: auto;
     border-radius: 20px;
-    object-fit: cover;
+    object-fit: contain;
     margin-bottom: 10px;
 }
 .perfil:hover{
     transform: translateY(-10px);
-    box-shadow: 0 6px 18px rgb(143, 95, 175);
+    box-shadow: 0 6px 18px rgb(117, 97, 74);
 }
 .perfil button{
     margin-top: 10px;
@@ -48,7 +48,7 @@ body {
 }
 section {
   padding-top: 4vh;
-  margin: 0 10rem;
+  margin: 0 5rem;
   box-sizing: border-box;
   scroll-margin-top: 80px;
 }
@@ -82,7 +82,7 @@ section {
 }
 .details-container {
   padding: 1rem;
-  flex: 1;
+  flex: auto;
   background: white;
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
@@ -108,26 +108,34 @@ article img{
 }
 .contenedor {
   display: flex;
-  align-items: flex-start;
-  gap: 20px;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
+  gap: 60px;
+  max-width: 1000px;
+  margin: 0 auto;
 }
-.imagen-circular{
-  width: 250px;
-  height: 250px;
+.imagen-circular {
+  width: 220px;
+  height: 220px;
   border-radius: 50%;
   object-fit: cover;
 }
 .derecha{
   display: flex;
+  align-items: center;
   flex-direction: column;
   gap: 15px;
+  max-width: 400px;;
 }
-.parrafo p{
+.parrafos p{
   margin-bottom: 5px;
 }
 .botones{
   display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
   gap: 10px;
 }
 .botones button{
@@ -144,8 +152,8 @@ article img{
 }
 .botones button:hover{
     transform: translateY(-5px);
-    box-shadow: 0 6px 18px rgb(220, 150, 76);
-    background: gray;    
+    box-shadow: 0 6px 18px rgb(85, 42, 42);
+    background: rgb(66, 66, 66);    
 }
 .imagenes-inferiores{
   display: flex;
