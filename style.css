@@ -227,3 +227,7 @@ html {
     border-radius: 999px;
     cursor: pointer;
 }
+.contactos{
+  text-align: center;
+  font-size: 3rem;
+}
