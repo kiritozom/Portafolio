@@ -1,16 +1,16 @@
 header {
-    background: rgb(75, 73, 73);
-    color: white;
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-decoration: none;
     padding: 10px;
     text-align: center;
     position: sticky;
     top: 0;
     z-index: 100;
-    box-shadow: 0 4px 6px rgba(48, 112, 240, 0.788);
+    box-shadow: 0 4px 6px rgba(0, 85, 255, 0.788);
 }
 .perfil{
-    background: white;
+    background: rgb(255, 255, 255);
     border-radius: 5px;
     box-shadow: 0 4px 12px black;
     padding: 20px;
@@ -28,7 +28,7 @@ header {
 }
 .perfil:hover{
     transform: translateY(-10px);
-    box-shadow: 0 6px 18px rgb(117, 97, 74);
+    box-shadow: 0 6px 18px rgb(35, 172, 69);
 }
 .perfil button{
     margin-top: 10px;
@@ -41,10 +41,11 @@ header {
     transition: background 0.3s ease;
 }
 .perfil button:hover{
-    background: blue;
+    background: rgb(0, 0, 255);
 }
 body {
-   margin: 0px; 
+   margin: 0px;
+   background-color: rgb(221, 198, 124);
 }
 section {
   padding-top: 4vh;
@@ -101,7 +102,6 @@ section {
 .title {
   font-size: 3rem;
   text-align: center;
-  
 }
 article img{
     width: 100px;
@@ -125,12 +125,12 @@ article img{
 .derecha{
   display: flex;
   align-items: center;
-  flex-direction: column;
   gap: 15px;
-  max-width: 400px;;
+  max-width: 500px;;
 }
 .parrafos p{
   margin-bottom: 5px;
+  font-size: 1.5rem;
 }
 .botones{
   display: flex;
@@ -168,12 +168,12 @@ nav{
   display: auto;
   align-items: center;
   justify-content: space-between;
-  padding-top: 40px;
-
+  padding-top: 5px;
+  font-size: 2.05rem;
 }
 .navbar ul{
   list-style-type: none;
-  background-color: hsl(0, 0, 25%);
+  background-color: hsl(0, 0%, 8%);
   padding: 0px;
   margin: 0px;
 }
@@ -186,6 +186,7 @@ nav{
 .navbar a:hover{
   background-color: hsl(0, 0, 10%);
 }
+
 .navbar li{
   display: inline-block;
   list-style-type: none;
